@@ -57,7 +57,7 @@ section{
     line-height: 2em;
     padding-left: 40px;
     font-family: var(--fonte-escrita);
-    font-size: 3vw;
+    font-size: 2.8vw;
 }
 
 section.normal{
@@ -68,12 +68,33 @@ section.normal{
 section.imagem{
     background-color: rgb(62, 62, 62);
     color: white;
+    box-shadow: inset 4px 4px 15px 0px black;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.222);
+    background-color: rgba(0, 0, 0, 0.332);
+    text-shadow: 1.5px 1.5px 0px black;
+}
+
+section#img01{
+    background-image: url(imagens/floramarela.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+section#img02{
+    background-image: url(imagens/floresrosas.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#img03{
+    background-image: url(imagens/joaninha.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 footer{
