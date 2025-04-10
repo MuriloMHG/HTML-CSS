@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Didact+Gothic&family=Kaushan+Script&family=Shrikhand&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #6eec91;
+}
+
+header{
+    background-image: linear-gradient(to top, #0a9930, #6eec91);
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.449);
+    padding-bottom: 7px;
+
+    margin-bottom: 0px;
+}
+
+header > h1{
+    color: #e6ebe8;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.449);
+    text-align: center;
+    margin-top: 0px;
+}
+
+header > p{
+
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.449);
+
+    max-width: 450px;
+
+    width: auto;
+
+    text-align: center;
+
+    margin: auto;
+
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+    color: #e6ebe8;
+}
+
+nav > a{
+    color: #e6ebe8;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transition-duration: .1s;
+}
+
+nav > a:hover{
+    color: rgba(0, 0, 0, 0.492);
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.449);
+    background-color: rgba(255, 255, 255, 0.167);
+    font-weight: bold;
+}
+
+main{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.493);
+
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: white;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+section#História{
+    margin-bottom: 15px;
+}
+
+section#História > h1{
+    font-family: Audiowide;
+    color: #386143;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    margin-top: 2.1px;
+}
+
+section#História > p{
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+    text-indent: 20px;
+    text-align: justify;
+}
+
+section#Primeira{
+    margin-bottom: 15px;
+}
+
+section#Primeira > h2{
+    background-image: linear-gradient(
+        to right, #b5e5c2, #ffffff 
+    );
+
+
+    font-size: 23px;
+    font-family: Audiowide;
+    color: #386143;
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+section#Primeira > p{
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+img{
+    margin: 0px;
+    width: 100%;
+    display: block;
+    
+}
+
+.img_pequena{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+section#Novo > h2{
+    background-image: linear-gradient(
+        to right, #b5e5c2, #ffffff 
+    );
+
+
+    font-size: 23px;
+    font-family: Audiowide;
+    color: #386143;
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    
+}
+
+section#Novo > p{
+    margin: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+    text-indent: 20px;
+    text-align: justify;
+}
+
+section#Novo{
+    margin-bottom: 15px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+
+    margin: auto;
+    background-color: #386143;
+    border: 2px solid #386143;
+    box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.466);
+
+    min-width: 200px;
+    border-radius: 20px;
+    max-width: 600px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.video > iframe{
+    min-width: 200px;
+    max-width: 600px;
+}
+
+section#extra{
+    background-color: #abf7c1;
+    border: 1px solid #abf7c1;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.351);
+
+    margin-top: 0;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+section#extra > h3{
+    border: 1px solid #0a993078;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.389);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-color: #0a993078;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section#extra > p{
+    margin-left: 10px;
+    margin-right: 5px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+ul{
+    padding: 0px 0px 0px 10px;
+    columns: 2;
+    list-style-position: inside;
+    
+}
+
+main > p{
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-align: justify;
+    text-indent: 20px;
+
+}
+
+footer{
+    padding: 8px;
+    background-color: #064d19;
+    text-align: center;
+    margin: auto;
+}
+footer > p{
+    text-align: center;
+    color: white;
+    margin: 0px;
+}

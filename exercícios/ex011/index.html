@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Teste as imagens dinâmicas</h1>
+
+    <picture>
+        <source media="(max-width: 725px)" srcset="foto-p.png" type="image/png">
+
+        <source media="(max-width: 1025px)" srcset="foto-m.png" type="image/png">
+        
+        <img src="foto-g.png" alt="Foto granded">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <audio src="midia/purasacanagem.mp3" controls></audio>
+</body>
+</html>
